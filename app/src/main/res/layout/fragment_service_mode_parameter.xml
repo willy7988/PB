@@ -1,0 +1,482 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_content_bg"
+    tools:context="com.plexbio.plexbiowasher.servicemode.ServiceModeParameter">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title_parameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/servicemode_parameter"
+        android:textColor="@color/app_title_color"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/title_parameter"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="X Axis Move Setting:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Row 1: "
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Tank : Waster  1: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="SAPE: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:inputType="numberDecimal"/>
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Y Axis Position Setting:  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Suc. Up: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Down: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Magnetic - Magnetic Position:  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"/>
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Shake Offset:  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"/>
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Suspend Shake Speed: "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Suspend Shake Time(sec.):  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Heating Suspend Shake RPM:  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Dispensing Time (ms):   "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="50μl:  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="150μl:"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="200μl :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Rinse/Prime Time(sec.):  "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_shape">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:inputType="numberDecimal"
+                    android:background="@null"
+                    android:gravity="center"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Non0Burn"
+                android:textSize="10dp" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Restore"
+                android:textSize="10dp" />
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

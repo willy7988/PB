@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bar_clock"
+        android:title="CLOCK"
+        android:icon="@mipmap/clock_icon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_bar_info"
+        android:title="INFO"
+        android:icon="@mipmap/info_icon"
+        app:showAsAction="always"/>
+
+</menu>

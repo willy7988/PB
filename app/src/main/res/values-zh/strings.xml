@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlexBioWasher</string>
+    <string name="menu_upgrade_firmware">升級韌體</string>
+    <string name="menu_language_select">語言</string>
+    <string name="side_menu_assay">實驗</string>
+    <string name="side_menu_menu">設定</string>
+    <string name="menu_date_time">日期/時間</string>
+</resources>

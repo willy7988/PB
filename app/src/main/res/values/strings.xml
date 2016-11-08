@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PlexBioWasher</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="side_menu_assay">Assay</string>
+    <string name="side_menu_menu">Setting</string>
+    <string name="side_menu_service_mode">Service Mode</string>
+    <string name="side_menu_log_status">Log Status</string>
+    <string name="side_menu_shut_down">Shut Down</string>
+
+    <string name="menu_maintenance">Maintenance</string>
+    <string name="menu_machine_reset">Machine Reset</string>
+    <string name="menu_rinse_time">Rinse Time</string>
+    <string name="menu_fluid_path">Fluid Path</string>
+    <string name="menu_upgrade_firmware">Upgrade Firmware</string>
+    <string name="menu_upgrade_assay">Upgrade Assay</string>
+    <string name="menu_date_time">Date/Time</string>
+    <string name="menu_language_select">Language</string>
+
+    <string name="menu_renew_tank_title">Renew Tank maintenance!</string>
+    <string name="menu_renew_tank_description">Do you want to renew the wash buffer tank?</string>
+
+    <string name="menu_clean_manifold_title">Clean Manifold maintenance!</string>
+    <string name="menu_clean_manifold_description">Do you want to do the clean manifold maintenance?</string>
+
+    <string name="menu_reset_machine_title">Reset the IntelliPlex 1000!</string>
+    <string name="menu_reset_machine_description">Do you want to reset the IntelliPlex 1000?</string>
+    <string name="menu_set_rinse_time">Range (00:10:00) ~ (23:59:59)</string>
+    <string name="menu_rinse_title">RINSE</string>
+    <string name="menu_rinse_description">Do you want to do the RINSE procedure?</string>
+    <string name="menu_prime_title">PRIME</string>
+    <string name="menu_prime_description">Do you want to do the PRIME procedure?</string>
+    <string name="menu_rinse_prime_title">RINSE/PRIME</string>
+    <string name="menu_rinse_prime_description">Do you want to do the RINSE/PRIME procedure?</string>
+    <string name="menu_upgrade_firmware_title">Upgrade the IntelliPlex 1000 Firmware!</string>
+    <string name="menu_upgrade_firmware_description">Do you want to do the upgrade the IntelliPlex 1000 firmware?</string>
+    <string name="menu_upgrade_firmware_fail_title">Upgrade file is not found.</string>
+    <string name="menu_upgrade_firmware_fail_description">Do you have put upgrade file into USB Dongle</string>
+    <string name="menu_upgrade_assay_title">Upgrade the Assay procedure!</string>
+    <string name="menu_upgrade_assay_description">Do you want to do the upgrade the assay procedure?</string>
+    <string name="menu_upgrade_assay_fail_title">Upgrade assay procedure are not found.</string>
+    <string name="menu_upgrade_assay_fail_description">Do you have put assay procedure into USB Dongle?</string>
+
+    <string name="servicemode_motor_control">Motor Control</string>
+    <string name="servicemode_water_way">Water Way</string>
+    <string name="servicemode_heater">Heater</string>
+    <string name="servicemode_parameter">Parameter</string>
+    <string name="servicemode_step_by_step_tuning">Step by Step Tuning</string>
+
+
+</resources>

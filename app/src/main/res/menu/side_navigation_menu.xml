@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_assay"
+            android:checkable="true"
+            android:icon="@mipmap/info_icon"
+            android:title="@string/side_menu_assay"/>
+        <item
+            android:id="@+id/nav_menu"
+            android:checkable="true"
+            android:icon="@mipmap/info_icon"
+            android:title="@string/side_menu_menu"/>
+        <item
+            android:id="@+id/nav_service_mode"
+            android:checkable="true"
+            android:icon="@mipmap/info_icon"
+            android:title="@string/side_menu_service_mode"/>
+        <item
+            android:id="@+id/nav_log_status"
+            android:checkable="true"
+            android:icon="@mipmap/info_icon"
+            android:title="@string/side_menu_log_status"/>
+        <item
+            android:id="@+id/shut_down"
+            android:checkable="true"
+            android:icon="@mipmap/info_icon"
+            android:title="@string/side_menu_shut_down"/>
+    </group>
+</menu>
